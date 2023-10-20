@@ -20,7 +20,13 @@ export default async function Home() {
       },
     },
   });
-
+  const mouses = await prismaClient.product.findMany({
+    where: {
+      category: {
+        slug: 'mouses',      
+      },
+    },
+  });
 return (
 <div> 
   <Image 
@@ -66,6 +72,11 @@ return (
     className=" h-auto w-full p-5"
     sizes="100vw"
   />
+  </div>
+
+  <div className="mt-8">
+  <p className="font-bold uppercase pl-5 mb-3">Mouses</p>
+  <ProductList products={mouses} />
   </div>
 
 
