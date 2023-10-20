@@ -28,9 +28,13 @@ return (
 <div className="mt-8 p-5">
   <Categories />
 </div>
+
 <div className="mt-8">
   <ProductList products={deals} />
 </div>
+
+
+
 
 
 
