@@ -71,9 +71,14 @@ const ProductInfo = ({product: {basePrice, totalPrice, description, name, discou
                 <div className="bg-accent flex rounded-lg items-center px-5 py-2 justify-between mt-5">
                     <div className="flex item-center gap-2">
                         <TruckIcon />
+
                     <div className="flex flex-col">
-                    <p className="text-xs">Entrega via <span className="bold">FSPacket</span></p>
-                    <p className="text-[#8162FF] text-xs">Envio para <span className="bold">todo o Brasil</span></p>
+                    <p className="text-xs">Entrega via  
+                    <span className="bold"> FSPacket</span></p>
+
+                    <p className="text-[#8162FF] text-xs">Envio para 
+                    <span className="bold">todo o Brasil</span></p>
+
                     </div>
                     </div>
                     <p className="font-bold text-xs">Frete Grátis</p>
@@ -81,7 +86,7 @@ const ProductInfo = ({product: {basePrice, totalPrice, description, name, discou
 
 
 
-                
+
         </div>
      );
 }
