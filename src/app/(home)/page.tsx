@@ -79,7 +79,7 @@ return (
   <ProductList products={mouses} />
   </div>
 
-
+<div className="mt-8"></div>
 
 
 </div>
