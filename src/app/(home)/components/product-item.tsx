@@ -1,7 +1,7 @@
 
 import Image from "next/image";
-import { ProductWithTotalPrice } from "../../helpers/product";
-import { Badge } from "./ui/badge";
+import { ProductWithTotalPrice } from "../../../../helpers/product";
+import { Badge } from "../../../components/ui/badge";
 import { ArrowDownIcon } from "lucide-react";
 
 
@@ -11,8 +11,8 @@ interface ProductItemProps{
 
 const ProductItem = ({product}: ProductItemProps) => {
     return (
-<div className="flex flex-col gap-4 max-w-[156px]">
-    <div className="relative bg-accent rounded-lg h-[170px] w-[156px] flex items-center justify-center ">
+<div className="flex flex-col gap-4 max-w-[150px]">
+    <div className="relative bg-accent rounded-lg h-[150px] w-[150px] flex items-center justify-center ">
         <Image
             src={product.imageUrls[0]}
             height={0}
