@@ -57,6 +57,17 @@ return (
   <ProductList products={keyboards} />
   </div>
 
+  <div className="mt-8">
+<Image 
+    src="/banner-fones.png"
+    height={0}
+    width={0}
+    alt="Até 20% de desconto em fones!"
+    className=" h-auto w-full p-5"
+    sizes="100vw"
+  />
+  </div>
+
 
 
 
