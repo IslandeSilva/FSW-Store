@@ -32,7 +32,11 @@ const  ProductDetailsPage = async ({params: {slug}}: ProductDetailsPageProps) =>
     <div className="flex flex-col gap-8 pb-8">
         <ProductImages imageUrls={product.imageUrls} name={product.name} />
         <ProductInfo product={computeProductTotalPrice(product)} />
+
+        <div>
+        <p className="font-bold uppercase pl-5 mb-1">Produtos Recomendados</p>
         <ProductList products={product.category.products} />
+        </div>
 
     </div>
     )
