@@ -34,11 +34,11 @@ return (
     height={0}
     width={0}
     alt="Até 55% de desconto, somente esse Mês!"
-    className=" h-auto w-full p-5"
+    className="h-auto w-full p-5"
     sizes="100vw"
   />
 
-<div className="mt-8 p-5">
+<div className="mt-4 p-5">
   <Categories />
 </div>
 
