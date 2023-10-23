@@ -18,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 or
 
-[Project Deploy on Vercel]https://fsw-store-2kuuj2p3d-islandes-projects.vercel.app/ 
+[https://fsw-store-2kuuj2p3d-islandes-projects.vercel.app/]https://fsw-store-2kuuj2p3d-islandes-projects.vercel.app/ 
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
