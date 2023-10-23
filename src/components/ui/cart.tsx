@@ -45,7 +45,7 @@ const Cart = () => {
             <Separator /> 
             <div className="flex items-center justify-between text-xs">
                 <p>Descontos</p>
-                <p>-R$ {totalDiscount.toFixed(2)}</p>
+                <p>R$ {totalDiscount.toFixed(2)}</p>
             </div>
             <Separator />
             <div className="flex items-center justify-between text-sm font-bold">
