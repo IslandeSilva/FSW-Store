@@ -1,3 +1,7 @@
+![screencapture-fsw-store-2kuuj2p3d-islandes-projects-vercel-app-2024-05-10-14_17_43](https://github.com/IslandeSilva/fsw-store/assets/38857120/369d4965-a67c-46fc-8f80-bff1a78d56a5)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
